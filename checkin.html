@@ -4,10 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Booking Calender</title>
-  
- <link rel="stylesheet" href="assets/booking/style.css">
-
-  
+  <link rel="stylesheet" href="assets/booking/style.css">
 </head>
 
 <body>
@@ -75,14 +72,24 @@
 			</div>
 		</div>
 		<div id="clear" class="flex column center-vh bgColorDarkRed">
-			<p>CLEAR SELECTION</p>
+			<button onclick="myFunction()">Clear Selection</button>
+			<style>
+			.id{
+				
+			}
+			</style><script>
+			function myFunction() {
+			    location.reload();
+			}
+			</script>
 		</div>
 	</div>
 </div>
 	
 <div id="calender-buttons" class="flex row center-vh wrap">
 	<div id="make-booking" class="flex column center-vh">
-		<a href="signup.html"><p>MAKE BOOKING ENQUIRY</p>
+		<a href="signup.html">MAKE BOOKING ENQUIRY
+		<a href="project-inner.html">Go Back
 	</div>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>

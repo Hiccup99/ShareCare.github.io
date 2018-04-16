@@ -17,8 +17,11 @@
         <link href="css/agency.min.css" rel="stylesheet">
         <link href="assets/css/login.css" rel="stylesheet">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset;=latin,cyrillic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="assets/fonts/montserrat/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
     </head>
     <body>
 
@@ -34,7 +37,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/img/logo.jpg" height="50" width="50">
+                                <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
                             </a>
                         </div>
                     </div>
@@ -43,7 +46,7 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">                        
                                 <li class="active"><a href="index.html">HOME</a></li>
-                                <li><a href="projects.html">ALL LISTINGS</a></li>
+                                <li><a href="projects.html">LISTINGS</a></li>
                                 <li><a href="host.html">BECOME A HOST</a></li>
                                 <li><a class="nav-link" onclick="document.getElementById('id01').style.display='block'">Login</a></li>
                             </ul>
@@ -118,18 +121,13 @@
   </dl>
 
         
-        </div><!-- /site-wrapper -->
-        <!-- End Site Wrapper -->
-
-        <!-- Footer -->
+        </div>
         <div id="footer">
             <div class="container">   
                 <div class="row"> 
-                    <!-- Copyright -->                                    
                     <div class="col-md-4 text-center">
                         <p>Copyright 2018 © ShareCare</p>
                     </div>
-                    <!-- Footer Social Icons -->
                     <div class="col-md-4 text-center">
                         <a href="#">
                             <i class="fa fa-facebook fa-lg"></i>
@@ -148,18 +146,17 @@
                         </a>
                     </div> 
                     
-                    <!-- Up Button -->
                     <div class="col-md-4 back-to-top">
                         <a href="#">
                             <i class="fa fa-angle-up fa-2x pull-right"></i>
                         </a>
                     </div>                                                                                                                                                 
-                </div><!-- /row -->
-            </div><!-- /container -->
+                </div>
+            </div>
         </div>
-        <div id="id01"class="modal">
+        <div id="id01" class="modal">
             <div>
-              </div>
+              </div>    
             <div class="intro">
               <h2 class="title">
                 New Here?
@@ -169,7 +166,7 @@
 
             <div class="login-options sso clearfix">
               <div class="login-option">
-                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student">
                   UCB Students, Faculty and Staff<br>
                   <small>
                   (Login with your UC Berkeley CalNet ID)
@@ -191,10 +188,7 @@
               </div>
             </div>
             <script>
-            // Get the modal
             var modal = document.getElementById('id01');
-
-            // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
@@ -202,15 +196,9 @@
             }
             </script>
 
-        <!-- End Footer -->
-
-        <!-- Js Global Compulsory  -->
         <script src="assets/js/button.js"></script>
         <script src="assets//jquery-1.11.1.min.js"></script>
         <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-        <!-- Js Implementing Plugins  -->
-        <script src="assets/plugins/moderniz.js"></script>
-        <!-- Js Page  -->
         <script src="assets/js/app.js"></script>
     </body>
 </html>

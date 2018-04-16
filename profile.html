@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="assets/css/account.css"> 
+<link rel="stylesheet" href="uplist/buttons.css">
+<link rel="stylesheet" href="css/style.css">
 <body data-gr-c-s-loaded="true">  
     <div class="app">
       <div class="app-header">
@@ -12,19 +14,8 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="index.html">
-              <img class="img-responsive" src="assets/img/logo.jpg" height="50" width="50" alt="">
+              <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
               </a>
-            </div>
- 
-                 <div class="collapse navbar-collapse" id="primary-navigation">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a href="messages.html">Edit Listing</a>
-                </li>
-                <li>
-                  <a href="messages.html">Preview Listing</a>
-                </li>
-              </ul>
             </div>
           </div>
         </nav>
@@ -33,23 +24,27 @@
         <div class="app-pane app-pane-nav">
           <nav class="dash-nav">
             <ul>
-                <li><a href="account.html"> Account</a>
+              <li>
+                <a href="account.html">Account</a>
               </li>
               <li>
-                <a href="profile.html"> Profile</a>
+                <a href="profile.html">Profile</a>
               </li>
-                <li><a href="/search"> Explore Listings</a></li>
+                <li><a href="uplist.html">Upload Listing</a></li>
                 <li>
-                  <a href="rentals.html"> Your Rentals</a>
+                  <a href="yourlist.html">Your Listing</a>
                 </li>
                 <li>
-                  <a href="favorites.html"> Your Favorites</a>
+                  <a href="stuprof.html">Student Guest Profiles</a>
                 </li>
               <li>
-                <a href="messages.html"> Messages</a>
+                <a href="messages.html">Messages</a>
               </li>
               <li>
-                <a href="terms.html"> Terms of Use</a>
+                <a href="terms.html">Terms of Use</a>
+              </li>
+              <li>
+                <a href="verfyID.html">Verify ID</a>
               </li>
               <li><a class="ion-log-out" rel="nofollow" data-method="delete" href="login.html"> Logout</a></li>
             </ul>
@@ -68,16 +63,14 @@
     <button class="btn-default view-profile-btn"><a target="_blank" href="editprof.html">View My Profile</a></button>
   </div>
 </div>
-
-
-          <form class="edit_user" id="edit_user_1820" enctype="multipart/form-data" action="/update" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="vzht1E0NMwEuNP+RfrVTvn1CgY0IkQXZUqQZ3RLjfTQ79Oq3qtU1x+qS5s1T6u98qOOZ5JAHSceOrXCKt3xQ2g==">
+ <form class="edit_user" id="edit_user_1820" enctype="multipart/form-data" action="" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="patch"><input type="hidden" name="authenticity_token" value="vzht1E0NMwEuNP+RfrVTvn1CgY0IkQXZUqQZ3RLjfTQ79Oq3qtU1x+qS5s1T6u98qOOZ5JAHSceOrXCKt3xQ2g==">
   <div class="tab-content">
     <div class="tab-pane active" id="about">
       <div class="row">
         <div class="col-lg-4">
           <h4>Profile Photo</h4>
           <p class="small">Please share a picture of yourself to complete your profile!</p>
-          <span><img src="https://www.nesterly.io/images/medium/missing.png" alt="Missing"></span>
+          <span><img src="img/profile.jpg" width="300" height="300"></span>
           <br><br>
           <input class="img-responsive" type="file" name="user[avatar]" id="user_avatar">
           <div class="spacer-sm"></div>
@@ -93,84 +86,22 @@
 
           <div class="form-group row">
             <div class="col-xs-12">
-              <label for="why-nesterly">Why are you joining the Nesterly community?</label>
-              <textarea rows="5" cols="20" placeholder="What interests you about intergenerational homesharing?" class="form-control" name="user[home_sharing]" id="user_home_sharing"></textarea>
+              <label for="why-nesterly">What interests you about intergenerational homesharing?</label>
+              <textarea rows="5" cols="20" placeholder="" class="form-control" name="user[home_sharing]" id="user_home_sharing"></textarea>
             </div>
           </div>
 
           <div class="form-group row">
             <div class="col-xs-12">
-              <label for="target_budget">Target Monthly Budget</label>
-              <input placeholder="e.g $600" class="form-control" type="text" name="user[target_budget]" id="user_target_budget">
-            </div>
-          </div>
-
-          <div class="form-group row">
-            <div class="col-xs-12">
-              <label for="how_you_heard">How did you hear about Nesterly?</label>
+              <label for="how_you_heard">How did you hear about ShareCare?</label>
               <input placeholder="e.g. Facebook, Friend, Boston Magazine, etc." class="form-control" type="text" name="user[how_you_heard]" id="user_how_you_heard">
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row">
-            <div class="col-xs-12">
-              <h4>Willing to help around the house? </h4>
-              <p class="small">Indicate which tasks you are willing to do to help your Host.</p>
-            </div>
-          </div>
-          <input type="hidden" name="user[task_ids][]" value="">
-            <div class="col-md-4">
-              <input type="checkbox" value="1" name="user[task_ids][]" id="user_task_ids_1">
-              <label for="user_task_ids_1">Cooking</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="2" name="user[task_ids][]" id="user_task_ids_2">
-              <label for="user_task_ids_2">Pet Care</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="3" name="user[task_ids][]" id="user_task_ids_3">
-              <label for="user_task_ids_3">Driving</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="4" name="user[task_ids][]" id="user_task_ids_4">
-              <label for="user_task_ids_4">Cleaning</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="5" name="user[task_ids][]" id="user_task_ids_5">
-              <label for="user_task_ids_5">Technology tutoring</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="6" name="user[task_ids][]" id="user_task_ids_6">
-              <label for="user_task_ids_6">Yard Work/Snow Shoveling</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="7" name="user[task_ids][]" id="user_task_ids_7">
-              <label for="user_task_ids_7">Grocery Shopping</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="8" name="user[task_ids][]" id="user_task_ids_8">
-              <label for="user_task_ids_8">Laundry</label>
-            </div>
-
-            <div class="col-md-4">
-              <input type="checkbox" value="9" name="user[task_ids][]" id="user_task_ids_9">
-              <label for="user_task_ids_9">Basic Home Maintenance</label>
-            </div>
-        </div>
-      </div>
       <br>
-      <div class="text-right">
-        <input type="submit" name="commit" value="Save" class="btn btn-large btn-primary" data-disable-with="Save">
+      <div class="service-title">
+        <button class="btn step3">Save</button>
       </div>
     </div>
   </div>
@@ -182,6 +113,7 @@
         </div>
       </div>
     </div>
+    <script  src="upload/js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
     <script src="https://unpkg.com/flatpickr"></script>

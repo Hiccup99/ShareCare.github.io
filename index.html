@@ -4,31 +4,28 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>ShareCare</title>
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
-
-    <link href="css/agency.min.css" rel="stylesheet">
-    <link href="assets/css/login.css" rel="stylesheet">
-
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
+  <link href="css/agency.min.css" rel="stylesheet">
+  <link href="assets/css/login.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
-
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">ShareCare</a>
+        <a class="navbar-brand" href="index.html">
+          <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
+        </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -42,20 +39,19 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">LISTINGS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="host.html">BECOME A HOST</a>
+            <a class="nav-link" href="host.html">Become a host</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" onclick="document.getElementById('id01').style.display='block'">LOGIN</a>
+              <a class="nav-link" onclick="document.getElementById('id01').style.display='block'">LOGIN</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Header -->
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
@@ -66,7 +62,6 @@
       </div>
     </header>
 
-    <!-- About -->
     <section id="about">
       <div class="container">
         <div class="row">
@@ -144,12 +139,11 @@
       </div>
     </section>
 
-    <!-- Catalog -->
     <section id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase"><font color=white>LISTINGS</font color></h2>
+            <h2 class="section-heading text-uppercase"><font color=white>TOP LISTINGS</font color></h2>
             <h3 class="section-subheading text-muted">Featured Living Spaces</h3>
           </div>
         </div>
@@ -240,14 +234,15 @@
           </div>
         </div>
       </div>
-      <div class="all-projects text-center">
-                <a href="projects.html" class="btn orange-btn">
-                    See all our Listings=
-                </a>
-            </div>
+      <div class="padding-top padding-bottom">  
+                    <center>
+                    <a href="projects.html" class="btn black-btn">
+                    View all listings
+                    </a>
+                    </center>
+                </div>
     </section>
 
-    <!-- Footer -->
     <footer>
       <div class="container">
         <div class="row">
@@ -275,19 +270,13 @@
           </div>
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
-              <p>2530 Ridge Rd
-                 <br>Berkeley, CA 94720
-                 <br>1 (510) 123 - 4567
-                 <br>hello@sharecare.com</p>
+              <p>info@sharecare.com
+              </p>
             </ul>
           </div>
         </div>
       </div>
     </footer>
-
-    <!-- Catalog Modals -->
-
-    <!-- Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -309,10 +298,9 @@
                     <li><b>Services Required</b>: Taking out the trash, mowing the lawn, grocery shopping, picking up medicine, and cleaning the house.</li>
                     <li><b>Restrictions</b>: No pets, advance notice of guest visistors.</li>
                   </ul>
-                  <div class="modal-body">
-                  <a href="project-inner.html">
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">VIEW MORE</button>
-                  </a>
+                    <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -343,8 +331,9 @@
                     <li><b>Services Required</b>: Companion for board games, keeping up the garden, assistance with maintenance around the house.</li>
                     <li><b>Restrictions</b>: None.</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    View More</button>
+                  <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -375,8 +364,9 @@
                     <li><b>Services Required</b>: Taking care of the dog, cleaning up the house, baby sitting the 3 year old daughter.</li>
                     <li><b>Restrictions</b>: No other pets, no guest visitors in protection of the children.</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    View More</button>
+                  <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -407,8 +397,9 @@
                     <li><b>Services Required</b>: Medical and daily care of the elder (sponge baths, helping them physically get from point A to point B within the home, etc). Weekly visits to the park. Driving her where she needs to go.</li>
                     <li><b>Restrictions</b>: Quiet hours after 10pm.</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    View More</button>
+                  <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -439,8 +430,9 @@
                     <li><b>Services Required</b>: Babysitting the kids, preparing their lunches and dinners, taking them to and from school, occasional tutoring.</li>
                     <li><b>Restrictions</b>: No pets, women preferred.</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    View More</button>
+                  <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -471,8 +463,9 @@
                     <li><b>Services Required</b>: All inclusive household chores, mainly watching over and training the new puppy.</li>
                     <li><b>Restrictions</b>: Must be home around 20 hours in the week to watch over the puppy and train it.</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    View More</button>
+                  <a href="project-inner.html">
+                  <button class="btn btn-primary">View More</button>
+                    </a>
                 </div>
               </div>
             </div>
@@ -481,68 +474,61 @@
       </div>
     </div>
 
+            <div id="id01" class="modal">
+            <div>
+              </div>    
+            <div class="intro">
+              <h2 class="title">
+                New Here?
+                    <small><a href="signup.html">Sign up</a></small>
+              </h2>
+            </div>
 
-<div id="id01"class="modal">
-<div class="intro">
-  <h2 class="title">
-    New Here?
-        <small><a href="signup.html">Sign up</a></small>
-  </h2>
-</div>
-
-<div class="login-options sso clearfix">
-  <div class="login-option">
-    <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
-      UCB Students, Faculty and Staff<br>
-      <small>
-      (Login with your UC Berkeley CalNet ID)
-      </small>
-    </a>
-  </div>
-
-
-  <div class="login-option">
-    <div class="login-block login-block-expand">
-      <a href="login.html">
-        Other Users<br>
-        <small>
-          (Property Listers &amp; Guests without UC Berkeley CalNet ID)
-        </small>
-      </a>
-      </div>
-    </div>
-  </div>
-</div>
-<script>
-
-var modal = document.getElementById('id01');
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
+            <div class="login-options sso clearfix">
+              <div class="login-option">
+                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                  UCB Students, Faculty and Staff<br>
+                  <small>
+                  (Login with your UC Berkeley CalNet ID)
+                  </small>
+                </a>
+              </div>
 
 
+              <div class="login-option">
+                <div class="login-block login-block-expand">
+                  <a href="login.html">
+                    Other Users<br>
+                    <small>
+                      (Property Listers &amp; Guests without UC Berkeley CalNet ID)
+                    </small>
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
 
-    <!-- Bootstrap core JavaScript -->
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+
+
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-
-    <!-- Modal CSS -->
     <style>
       body {font-family: Arial, Helvetica, sans-serif;}
-      /* Full-width input fields */
       input[type=text], input[type=password] {
           width: 100%;
           padding: 12px 20px;
@@ -622,7 +608,6 @@ window.onclick = function(event) {
           color: red;
           cursor: pointer;
       }
-      /* Add Zoom Animation */
       .animate {
           -webkit-animation: animatezoom 0.6s;
           animation: animatezoom 0.6s

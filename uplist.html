@@ -1,0 +1,135 @@
+<link rel="stylesheet" href="assets/css/account.css">
+<link rel="stylesheet" href="uplist/buttons.css">
+<body data-gr-c-s-loaded="true">
+    <div class="app">
+      <div class="app-header">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#primary-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+              <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="app-main">
+        <div class="app-pane app-pane-nav">
+          <nav class="dash-nav">
+            <ul>
+              <li>
+                <a href="account.html">Account</a>
+              </li>
+              <li>
+                <a href="profile.html">Profile</a>
+              </li>
+                <li><a href="uplist.html">Upload Listing</a></li>
+                <li>
+                  <a href="yourlist.html">Your Listing</a>
+                </li>
+                <li>
+                  <a href="stuprof.html">Student Guest Profiles</a>
+                </li>
+              <li>
+                <a href="messages.html">Messages</a>
+              </li>
+              <li>
+                <a href="terms.html">Terms of Use</a>
+              </li>
+              <li>
+                <a href="verfyID.html">Verify ID</a>
+              </li>
+              <li><a class="ion-log-out" rel="nofollow" data-method="delete" href="login.html"> Logout</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container padding-top"> 
+                <div class="general-title">
+                    <h3>Follow the steps to list your place</h3>        
+                    <div class="title-devider"></div>
+                </div>  
+                   <div class="app-pane app-pane-content">
+          <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <center><h3>Listing Application</h3></center>      
+      <div class="settings-section">
+        <div class="messages-viewer">
+          <br></br> 
+                <div class="row padding-top"> 
+                    <div class="col-sm-4 col-md-3">  
+                        <div class="service-title">
+                        <p>Property Details</p>  
+                        <a href="step1.html">
+                            <button class="btn step1">Step 1</button> 
+                        </a>
+                        </div>   
+                    </div>
+
+                    <div class="col-sem-4 col-md-3"> 
+                        <div class="service title">
+                         <p>House Details</p>
+                         <a href="step2.html">
+                             <button class="btn step2">Step 2</button>
+                        </a>
+                        </div>
+                    </div>                        
+
+                    <div class="col-sem-4 col-md-3">
+                        <a href="file-upload/step3.html"> 
+                        <p>Upload Images</p>
+                        <div class="service-title">
+                          <button class="btn step3">Step 3</button>
+                        </a>
+                        </div>               
+                    </div> 
+
+                    <div class="col-sem-4 col-md-3">
+                        <a href="step4.html"> 
+                        </a>
+                        <p>Submit Listing</p>
+                        <div class="service-title">
+                        <button id="myBtn" class="btn step4">Step 4</button>
+                        </div> 
+                          <div id="myModal" class="modal">
+                            <div class="modal-content">
+                              <span class="close">&times;</span>
+                              <p>Listing Completed Successfully</p>
+                            </div>
+                          </div>                 
+                        </div>                          
+                      </div>
+                    </div>
+                  <nav class="text-center" aria-label="Conversations navigation">
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+var modal = document.getElementById('myModal');
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
