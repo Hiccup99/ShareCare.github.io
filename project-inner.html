@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" type="image/png" href="assets/img/favicon.ico">
-
+        <link href="assets/css/login.css" rel="stylesheet">
         <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"> 
         <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">    
         <link rel="stylesheet" href="assets/plugins/lightbox/css/lightbox.css">       
@@ -45,12 +45,12 @@
                                 <li class="active"><a href="index.html">HOME</a></li>
                                 <li><a href="host.html">Become a host</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="login.html">LOG IN</a></li>
+                                <li><a class="nav-link" onclick="document.getElementById('id01').style.display='block'">LOGIN</a></li>
                             </ul>
                         </div>
                     </div>
-                </div><!-- /row -->
-            </div><!-- /container -->
+                </div>
+            </div>
         </nav>
         <div class="general-title bg-color"> 
             <h2>Berkeley, CA</h2>
@@ -90,9 +90,7 @@
                         </ul>
                         <br>   
                     </div>
-                    <div id="id02" class="check">
-                    <a href='checkin.html' class='button'>Check Availability</a><br>
-                    </div> 
+                    <a href='checkin.html' class='button'>Check Availability</a><br></center>
 
                     <div class="col-sm-5">
                         <div class="project-info">
@@ -253,26 +251,63 @@
                         </a>
                     </div> 
                     
-                    <!-- Up Button -->
                     <div class="col-md-4 back-to-top">
                         <a href="#">
                             <i class="fa fa-angle-up fa-2x pull-right"></i>
                         </a>
                     </div>                                                                                                                                                 
-                </div><!-- /row -->
-            </div><!-- /container -->
+                </div>
+            </div>
         </div>
-<script>
-var check = document.getElementById('id02');
-window.onclick = function(event) {
-    if (event.target == check) {
-        check.style.display = "none";
-    }
-}
+    <div id="id01" class="modal">
+            <div>
+              </div>    
+            <div class="intro">
+              <h2 class="title">
+                New Here?
+                    <small><a href="signup.html">Sign up</a></small>
+              </h2>
+            </div>
+
+            <div class="login-options sso clearfix">
+              <div class="login-option">
+                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                  UCB Students, Faculty and Staff<br>
+                  <small>
+                  (Login with your UC Berkeley CalNet ID)
+                  </small>
+                </a>
+              </div>
+
+
+              <div class="login-option">
+                <div class="login-block login-block-expand">
+                  <a href="login.html">
+                    Other Users<br>
+                    <small>
+                      (Property Listers &amp; Guests without UC Berkeley CalNet ID)
+                    </small>
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
         <script src="assets/plugins/jquery-1.11.1.min.js"></script>
         <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/plugins/lightbox/js/lightbox.js"></script>
-        <!-- Js Page  -->
         <script src="assets/js/app.js"></script>
+        <script src="assets/plugins/moderniz.js"></script>
+
     </body>
 </html>

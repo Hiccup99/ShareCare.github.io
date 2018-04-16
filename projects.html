@@ -14,6 +14,7 @@
         <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
+        <link href="assets/css/login.css" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-default header-navbar" role="navigation">
@@ -38,7 +39,7 @@
                                 <li class="active"><a href="index.html">HOME</a></li>
                                 <li><a href="host.html">Become a host</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="login.html">LOG IN</a></li>
+                                <li><a class="nav-link" onclick="document.getElementById('id01').style.display='block'">LOGIN</a></li>
                             </ul>
                         </div>
                     </div>
@@ -183,6 +184,52 @@
                 </div>
             </div>
         </div>
+
+
+    <div id="id01" class="modal">
+            <div>
+              </div>    
+            <div class="intro">
+              <h2 class="title">
+                New Here?
+                    <small><a href="signup.html">Sign up</a></small>
+              </h2>
+            </div>
+
+            <div class="login-options sso clearfix">
+              <div class="login-option">
+                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                  UCB Students, Faculty and Staff<br>
+                  <small>
+                  (Login with your UC Berkeley CalNet ID)
+                  </small>
+                </a>
+              </div>
+
+
+              <div class="login-option">
+                <div class="login-block login-block-expand">
+                  <a href="login.html">
+                    Other Users<br>
+                    <small>
+                      (Property Listers &amp; Guests without UC Berkeley CalNet ID)
+                    </small>
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
         <script src="assets/plugins/jquery-1.11.1.min.js"></script>
         <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/plugins/moderniz.js"></script>
