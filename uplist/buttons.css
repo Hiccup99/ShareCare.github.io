@@ -1,0 +1,56 @@
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.step1 {
+    border-color: #4CAF50;
+    color: green;
+}
+
+.step1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Blue */
+.step2 {
+    border-color: #2196F3;
+    color: dodgerblue
+}
+
+.step2:hover {
+    background: #2196F3;
+    color: white;
+}
+
+/* Orange */
+.step3 {
+    border-color: #ff9800;
+    color: orange;
+}
+
+.step3:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Red */
+.step4 {
+    border-color: #f44336;
+    color: red
+}
+
+.step4:hover {
+    background: #f44336;
+    color: white;
+}
+
+.default:hover {
+    background: #e7e7e7;
+}
