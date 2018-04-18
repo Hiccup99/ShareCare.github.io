@@ -77,7 +77,7 @@ a {
   transition: .5s ease;
 }
 a:hover {
-  color: #179b77;
+  color: #fff;
 }
 
 .form {
@@ -213,7 +213,7 @@ input:focus{
   letter-spacing: .1em;
   background: #fda1a3;
   color: #ffffff;
-  transition: all 0.5s ease;
+  transition:0.5s ease;
 }
 .button:hover, .button:focus {
   background: #179b77;
