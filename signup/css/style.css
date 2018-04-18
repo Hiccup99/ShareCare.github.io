@@ -122,7 +122,7 @@ a:hover {
   color: #ffffff;
 }
 .tab-group .active a {
-  background: #1ab188;
+  background: #fda1a3;
   color: #ffffff;
 }
 
@@ -211,7 +211,7 @@ input:focus{
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background: #1ab188;
+  background: #fda1a3;
   color: #ffffff;
   transition: all 0.5s ease;
 }
