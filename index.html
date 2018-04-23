@@ -18,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="assets/css/login.css" rel="stylesheet">
+  <link href="assets/css/close.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -39,7 +40,7 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">LISTINGS</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="host.html">Become a host</a>
+            <a class="nav-link" href="host.html">BECOME A HOST</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
@@ -478,34 +479,22 @@
             <div id="id01" class="modal">
             <div>
               </div>    
-            <div class="intro">
-              <h2 class="title">
-                New Here?
-                    <small><a href="signup.html">Sign up</a></small>
-              </h2>
-            </div>
-
             <div class="login-options sso clearfix">
               <div class="login-option">
+                <a href="index.html" class="close-thik"></a>
                 <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
-                  UCB Students, Faculty and Staff<br>
+                  STUDENT<br>
                   <small>
-                  (Login with your UC Berkeley CalNet ID)
+                  (Login with your UC Berkeley CalNet ID)</br>
                   </small>
-                </a>
-              </div>
-
-
-              <div class="login-option">
-                <div class="login-block login-block-expand">
-                  <a href="login.html">
-                    Other Users<br>
-                    <small>
-                      (Property Listers &amp; Guests without UC Berkeley CalNet ID)
-                    </small>
                   </a>
-                  </div>
-                </div>
+                  <a href="login.html" class="login-block sso-student ">
+                  HOST
+                  </a>
+                  <a href="signup.html" class="login-block sso-student ">
+                  New here? Signup  
+                  </a>
+              </div>
               </div>
             </div>
             <script>
@@ -528,6 +517,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/agency.min.js"></script>
+    <script src="assets/plugins/moderniz.js"></script>
     <style>
       body {font-family: Arial, Helvetica, sans-serif;}
       input[type=text], input[type=password] {
@@ -538,7 +528,6 @@
           border: 1px solid #ccc;
           box-sizing: border-box;
       }
-      /* Set a style for all buttons */
       button {
           background-color: #fda1a3;
           color: white;

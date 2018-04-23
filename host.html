@@ -21,13 +21,14 @@
 
     <link href="css/host.min.css" rel="stylesheet">
     <link href="assets/css/login.css" rel="stylesheet">
+    <link href="assets/css/close.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <<a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html">
         <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,18 +38,21 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.html">HOME</a>
+              <a class="nav-link js-scroll-trigger" href="index.html">HOW IT WORKS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="projects.html">LISTINGS</a>
             </li>
             <li class="nav-item">
+            <a class="nav-link" href="host.html">BECOME A HOST</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="faq.html">FAQ</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" onclick="document.getElementById('id01').style.display='block'">Login</a>
+              <a class="nav-link" onclick="document.getElementById('id01').style.display='block'">LOGIN</a>
             </li>
-          </ul>
+          </ul>   
         </div>
       </div>
     </nav>
@@ -56,7 +60,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <a class="nav-link" href="signup.html"><h1><br>Create Listing</br></h1></a>
+          <a class="nav-link" href="signup.html"><button class="create">Create Listing</button></a>
         </div>
       </div>
     </header>
@@ -116,76 +120,64 @@
         </div>
       </div>
     </section>
-<div id="footer">
-            <div class="container">   
-                <div class="row"> 
-                    <div class="col-md-4 text-center">
-                        <p>Copyright © ShareCare</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <a href="#">
-                            <i class="fa fa-facebook fa-lg"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-twitter fa-lg"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-pinterest-square fa-lg"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-dribbble fa-lg"></i>
-                        </a>
-                        <a href="#">
-                            <i class="fa fa-behance fa-lg"></i>
-                        </a>
-                        <br>  Contact: (510)-646-000/info@sharecare.com</br>
-                    </div>
-                    <div class="col-md-4 back-to-top">
-                        <a href="#">
-                            <i class="fa fa-angle-up fa-2x pull-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; ShareCare</span>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+            <br>Contact: (510)-646-0000/info@sharecare.com</br> 
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks">
+              <p>info@sharecare.com
+              </p>
+            </ul>
+          </div>
         </div>
+      </div>
+    </footer>
   
 
 <div id="id01" class="modal">
-<div>
-  </div>
-<div class="intro">
-  <h2 class="title">
-    New Here?
-        <small><a href="signup.html" id="modal-focus-start">Sign up</a></small>
-  </h2>
-</div>
-
-<div class="login-options sso clearfix">
-
-
-  <div class="login-option">
-    <a <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student">
-      UCB Students, Faculty and Staff<br>
-      <small>
-        (Login with your UC Berkeley CalNet ID)
-      </small>
-
-          </a>
-  </div>
-
-
-  <div class="login-option">
-    <div class="login-block login-block-expand">
-                      <a href="login.html">
-        Other Users<br>
-        <small>
-          (Property Listers &amp;  Guests without UC Berkeley CalNet ID)
-        </small>
-      </a>
-    </div>
-  </div>
-</div>
-</div>
+            <div>
+              </div>    
+            <div class="login-options sso clearfix">
+              <div class="login-option">
+                <a href="host.html" class="close-thik"></a>
+                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                  STUDENT<br>
+                  <small>
+                  (Login with your UC Berkeley CalNet ID)</br>
+                  </small>
+                  </a>
+                  <a href="login.html" class="login-block sso-student ">
+                  HOST
+                  </a>
+                  <a href="login.html" class="login-block sso-student ">
+                  New here? Signup  
+                  </a>
+              </div>
+              </div>
+            </div>
             
 <script>
 var modal = document.getElementById('id01');
@@ -200,6 +192,8 @@ var modal = document.getElementById('id01');
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="js/agency.min.js"></script>
+    <script src="assets/plugins/moderniz.js"></script>
+
   </body>
 
 </html>
