@@ -1,0 +1,178 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/account.css">
+<body data-gr-c-s-loaded="true">
+    <div class="app">
+      <div class="app-header">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#primary-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">
+              <img class="img-responsive" src="img/logo.jpg" height="50" width="50" alt="">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="app-main">
+        <div class="app-pane app-pane-nav">
+          <nav class="dash-nav">
+            <ul>
+              <li>
+                <a class="ion-gear-b active" href="account2.html">Account</a>
+              </li>
+              <li>
+                <a href="profile2.html">Profile</a>
+              </li>
+              <li>
+                <a href="verfyID2.html">Verify ID</a>
+              </li>
+                  <a href="your.html">Your Bookings</a>
+                </li>
+                <li>
+                  <a href="save.html">Saved</a>
+                </li>
+              <li>
+                <a href="messages2.html">Messages</a>
+              </li>
+              <li>
+                <a href="terms2.html">Terms of Use</a>
+              </li>
+              <li><a class="ion-log-out" rel="nofollow" data-method="delete" href="login.html"> Logout</a></li>
+            </ul>
+          </nav>
+        </div>
+<div class="app-pane app-pane-content">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="settings-section">
+            <div class="row">
+              <div class="col-md-6">
+              <h4 class="settings-section-title">Account Settings</h4>
+              </div>
+              <div class="col-md-6 text-right">
+              <button class="btn-default view-profile-btn"><a href="editprof2.html">View My Profile</a></button>
+              </div>
+          </div>
+
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation">
+            <a href="account.html">Basic Information</a>
+          </li>
+          <li class="active" role="presentation">
+            <a href="payments.html">Payments</a>
+          </li>
+          <li role="presentation">
+            <a href="changepass.html">Change Password</a>
+          </li>
+        </ul>
+
+        <div class="section-content">
+          <div class="tab-pane" id="payments">
+            <div class="row">
+              <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h4>Payments</h4><br>
+                      <form id="add-card" class="form-group" action="/add_card" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="KuKEmFNA/hKl9AscVXYHeMFANcCuHcn8Wg+SmTbi/nFl2HikAHq0Bi114Qn5WbNVgKGryfq+5Md6O1eUfptl8Q==">
+                        <label for="cardholder-name">Name on Card</label>
+                        <input class="form-control" id="cardholder-name" name="cardholder-name" type="text" placeholder=""><br>
+
+                        <label for="card-element">Card Number</label>
+                        <div id="card-element" ,="" class="form-control card-element StripeElement StripeElement--empty"><div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;"><iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeFrame3" allowpaymentrequest="true" src="https://js.stripe.com/v3/elements-inner-card-41fa34d12d20ee4f6aa499b31e936db3.html#hidePostalCode=true&amp;style[base][iconColor]=%23F99A52&amp;style[base][color]=%2332315E&amp;style[base][lineHeight]=48px&amp;style[base][fontWeight]=400&amp;style[base][fontFamily]=%22Helvetica+Neue%22%2C+%22Helvetica%22%2C+sans-serif&amp;style[base][fontSize]=15px&amp;style[base][padding]=10px&amp;style[base][border]=1px+solid+%23ccc&amp;style[base][::placeholder][color]=%23CFD7DF&amp;componentName=card&amp;wait=false&amp;rtl=false&amp;features[noop]=false&amp;origin=https%3A%2F%2Fnesterly.io&amp;referrer=https%3A%2F%2Fnesterly.io%2Fpayment_method&amp;controllerId=__privateStripeController0" title="Secure payment input frame" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; height: 48px;"></iframe><input class="__PrivateStripeElement-input" aria-hidden="true" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;"><input class="__PrivateStripeElement-safariInput" aria-hidden="true" tabindex="-1" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;"></div></div><br>
+
+                        <div class="outcome">
+                          <div class="error" ,="" id="card-errors" role="alert"></div>
+                        </div>
+                          <button type="submit" class="btn btn-large btn-primary">Add Card</button>
+                      </form>                    
+                    </div>
+                      <div class="col-md-6">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+  $(function() {
+    if (typeof Stripe == 'undefined') {
+      return false
+    }
+    var stripe = Stripe('pk_live_fMPIG2DH1ftS6Bm3Tmya7PMW')
+    var elements = stripe.elements();
+    var card = elements.create('card', {
+      hidePostalCode: true,
+      style: {
+        base: {
+          iconColor: '#F99A52',
+          color: '#32315E',
+          lineHeight: '48px',
+          fontWeight: 400,
+          fontFamily: '"Helvetica Neue", "Helvetica", sans-serif',
+          fontSize: '15px',
+          padding: '10px',
+           border: '1px solid #ccc',
+
+          '::placeholder': {
+            color: '#CFD7DF',
+          }
+        },
+      }
+    });
+
+    card.mount('#card-element');
+
+    function setOutcome(result) {
+      var errorElement = document.querySelector('.error');
+      errorElement.classList.remove('visible');
+
+      if (result.token) {
+        var form = $('#add-card');
+        form.append($('<input type="hidden" name="stripeToken">').val(result.token.id));
+        form.get(0).submit();
+      } else if (result.error) {
+        errorElement.textContent = result.error.message;
+        errorElement.classList.add('visible');
+      }
+    }
+
+    card.on('change', function(event) {
+      setOutcome(event);
+    });
+
+    $('#add-card').on('submit', function(e) {
+      e.preventDefault();
+      var extraDetails = {
+        name: $('input[name=cardholder-name]').value
+      };
+      stripe.createToken(card, extraDetails).then(setOutcome);
+    });
+
+  });
+</script>
+
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://unpkg.com/flatpickr"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  
+
+<iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeController0" allowpaymentrequest="true" src="https://js.stripe.com/v3/controller-cd5c99592cbe11c84ff34f446cdc1f9d.html#apiKey=pk_live_fMPIG2DH1ftS6Bm3Tmya7PMW&amp;stripeJsId=edb52cc2-3c43-432c-a770-f54a8e23a7b4&amp;features[noop]=false&amp;origin=https%3A%2F%2Fnesterly.io&amp;referrer=https%3A%2F%2Fnesterly.io%2Fpayment_method&amp;controllerId=__privateStripeController0" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important;"></iframe><iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeMetricsController4" allowpaymentrequest="true" src="https://js.stripe.com/v2/m/outer.html#url=https%3A%2F%2Fnesterly.io%2Fpayment_method&amp;title=Dashboard%20%7C%20Nesterly&amp;referrer=https%3A%2F%2Fnesterly.io%2Faccount&amp;muid=22bd31dd-998a-4b47-b2ff-2c7f33243926&amp;sid=50b8c853-f35d-4912-9447-5d7f6a881184&amp;preview=false" aria-hidden="true" tabindex="-1" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; visibility: hidden !important; position: fixed !important; height: 1px !important; pointer-events: none !important;"></iframe></body>
