@@ -18,7 +18,7 @@
     background-image: url(../images/bg-testimonial.jpg);
 }
 #testimonial .overlay{
-    background: rgba(221,87,128,0.8);
+    background: #fda1a3;
 }
 .ts-testimonial-slide{
     text-align: center;
