@@ -13,10 +13,6 @@
     bottom: 0;
     right: 0;
 }
-#testimonial{
-    padding: 130px 0 95px;
-    background-image: url(../images/bg-testimonial.jpg);
-}
 #testimonial .overlay{
     background: #fda1a3;
 }
@@ -30,25 +26,11 @@
     font-size: 24px;
     line-height: 36px;
     font-style: italic;
-    font-family: 'Droid Serif';
+    font-family: 'Montserrat';
     margin-bottom: 35px;
 }
 .ts-testimonial-slide .ts-testimonial-item {
   margin-bottom: 15px;
-}
-.ts-testimonial-slide .ts-testimonial-item .icon-client{
-    background: #ffffff;
-    width: 29px;
-    height: 29px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    float: left;
-    text-align: center;
-    line-height: 29px;
-    margin-top: 2px;
 }
 .ts-testimonial-slide .ts-testimonial-item .infor-client {
   display: inline-block;
@@ -56,7 +38,7 @@
   width: auto;
 }
 .ts-testimonial-slide .ts-testimonial-item  .client-name{
-    padding-left: 38px;
+    padding-left: 1px;
     font-size: 12.8px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -72,10 +54,4 @@
     padding-left: 38px;
     display: block;
     text-align: left;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-position a{
-    color: white;
-}
-.ts-testimonial-slide .ts-testimonial-item  .client-position a:hover{
-    color: #5ed9e7;
 }
