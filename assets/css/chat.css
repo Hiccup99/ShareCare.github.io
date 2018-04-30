@@ -3,6 +3,18 @@
 ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive {
     background: #4f5467;
 }
+
+.preview
+{
+    color:#000;
+    font-weight: 700;
+}
+.preview1
+{
+    color:#000;
+    font-weight: 200;
+}
+
 .card-post .img-user  { max-width: 110px;
                         min-width: 60px;}
 

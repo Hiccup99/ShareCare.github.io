@@ -17,11 +17,13 @@
 }
 
 .testimonial-avatar {
-  width: 150px;
+  width: 270px;
   border-radius: 50%;
 }
 
 .testimonial-quote {
+  margin-top:40px;
+  color:#6c757d;
   display: block;
   font-size: 24px;
   font-weight: 300;
@@ -29,6 +31,8 @@
 }
 
 .testimonial-author {
+  font-size:22px;
+  margin-top: 30px;
   display: block;
   font-weight: 800;
   color: #fda1a3;

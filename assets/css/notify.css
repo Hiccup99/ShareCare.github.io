@@ -25,12 +25,13 @@ font-family: 'Monsterrat',sans-serif;
 .dropdown-menu
 {
 	border-radius:10px;
-	width:420px;
+	width:280px;
 	background:#fff;
 	margin-bottom: 10px;
 }
 .pic{
-	margin-left: 20px
+	margin-left: 20px;
+	border-radius: 20px;
 }
 .dropdown-item
 {
