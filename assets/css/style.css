@@ -17,7 +17,7 @@
    text-shadow: #7ea4bd 0 1px 0;
    color: #ffffff;
    font-size: 14px;
-   font-family: helvetica, serif;
+   font-family: 'Monsterrat',sans-serif;
    text-decoration: none;
    vertical-align: middle;
    }
@@ -61,12 +61,12 @@
 }
 .navbar-nav>li{
 	text-transform: uppercase;
-	font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-family:'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 }
 .carousel-caption h1{
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 60px;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -74,7 +74,7 @@
 }
 
 .carousel-caption h3{
-	font-family: 'Helvetica Neue', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	text-transform: capitalize;
 	margin-top: 10px;
@@ -201,7 +201,7 @@ html {
 	min-height: 100%;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Monsterrat',sans-serif;
 	font-weight: 300;	
 	color: #333;
 	line-height: 1.6;		

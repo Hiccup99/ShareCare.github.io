@@ -1,0 +1,49 @@
+.request1
+{
+padding:3px 2px;
+margin-left: 10px;
+text-transform: none;
+text-align: center;
+height:30px;
+width:80px;
+border-radius: 10px;
+font-size:13px;
+font-family: 'Monsterrat',sans-serif;
+}
+.request2
+{
+padding:3px 2px;
+margin:auto;
+text-transform: none;
+text-align: center;
+height:30px;
+width:80px;
+border-radius: 10px;
+font-size:13px;
+font-family: 'Monsterrat',sans-serif;
+}
+.dropdown-menu
+{
+	border-radius:10px;
+	width:420px;
+	background:#fff;
+	margin-bottom: 10px;
+}
+.pic{
+	margin-left: 20px
+}
+.dropdown-item
+{
+
+	text-transform:none;
+	font-color:#fda1a3;
+	background-color: #fff;
+	border-radius: 40px;
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 600px;
+	position: relative;
+	margin: 0 auto 10px;
+}
+
+

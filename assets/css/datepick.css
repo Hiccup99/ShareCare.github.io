@@ -3,7 +3,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	font-family:  "Baloo";
+	font-family:  'Monsterrat',sans-serif;
 	padding-top: 60px;
 }
 input, textarea {
@@ -231,7 +231,7 @@ input, textarea {
   width: calc(100% - 12px);
 	background: white;
 	color: #FF6B6B;
-	font-family: "Baloo";
+	font-family: 'Monsterrat',sans-serif;
 	font-size: 14pt;
 }
 textarea.formError, input.formError {
@@ -278,7 +278,7 @@ textarea.formError, input.formError {
 			position: absolute;
 			margin-top: -3px;
 			font-size: 100pt;
-			font-family: "Ubuntu";
+			font-family: 'Monsterrat',sans-serif;
 			opacity: 0.1;
 		} 
 .clickable:hover {

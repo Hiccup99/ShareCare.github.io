@@ -1,0 +1,133 @@
+.btn-social, .badge, .btn-social, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive {
+    background: #4f5467;
+}
+.card-post .img-user  { max-width: 110px;
+                        min-width: 60px;}
+
+.card-post .chat-row .img-user { min-width:inherit; }
+
+.img-user-mini {
+    width: 30px;
+    height: 30px;
+}
+
+.popular-img {
+   margin-top:10px;
+}
+/*----------------------------------------------------------------
+3. Wall
+-----------------------------------------------------------------*/
+.card-post {
+    background: #ffffff;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+/*----------------------------------------------------------------
+User Profile
+-----------------------------------------------------------------*/
+.profile-content {
+    padding-top: 50px;
+    margin-top:0px;
+}
+
+.profile-content .nav-tabs {
+    padding-left: 130px;
+}
+
+.profile-data {
+    list-style: none;
+    padding: 0px;
+    line-height: 25px;
+}
+
+.chat-message {
+    padding: 12px 5px;
+    border-radius: 10px;
+    background: #4F5467;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'Monsterrat',sans-serif;
+}
+
+.chat-message h4 { margin-top:2px;
+      font-family: 'Monsterrat',sans-serif;
+                   font-size: 14px;}
+
+.chat-row {
+    margin-top: 20px;
+}
+
+.chat-message.pull-right {
+    background: #3a5248;
+}
+
+.chat-time {
+    font-family: 'Monsterrat',sans-serif;
+    font-size: 11px;
+    color: #b5b5b5;
+    margin-bottom: 6px;
+}
+
+.chat-message .chat-time {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.scrollbar-container {
+    height: 340px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.badge-replay, .badge-message {
+    font-family: 'Monsterrat',sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 36px;
+    font-weight: normal;
+}
+
+.badge-message {
+    background: #4f5467;
+}
+
+.form-message {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+textarea.post-textarea {
+    height: 80px;
+}
+
+.create-post-form input[type=submit] {
+    margin-top: 10px;
+}
+
+.row-user-list {
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+/*----------------------------------------------------------------
+Scrollbar
+-----------------------------------------------------------------*/
+
+ ::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
