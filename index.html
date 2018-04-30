@@ -9,20 +9,17 @@
     <meta name="author" content="">
 
     <title>ShareCare</title>
+  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
   <link href="css/agency.min.css" rel="stylesheet">
   <link href="assets/css/login.css" rel="stylesheet">
   <link href="assets/css/close.css" rel="stylesheet">
   <link href="assets/css/testi.css" rel="stylesheet">
-
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css'>
-  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
 
 
   </head>
@@ -69,33 +66,50 @@
       </div>
     </header>
 
-    <section id="testimonial" class="parallax-section">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="ts-testimonial-slide">
-          <div class="ts-testimonial-item">
-            <p>"Can Sharecare make it to the collider?"</p>
-            <div class="infor-client">
-              <img src="img/testi/1.jpg" height="240" width="240" alt=""></span>
-            </div>
-          </div>
-
-          <div class="ts-testimonial-item">
-            <p>"Can Sharecare win the collider?"</p>
-            <div class="infor-client">
-              <img src="img/testi/2.jpg" height="240" width="240" alt=""></span>
-            </div>
-          </div>
-          <div class="ts-testimonial-item">
-            <p>"Will Sharecare be a legit company one day?"</p>
-            <div class="infor-client">
-              <img src="img/testi/3.jpg" height="240" width="240" alt=""></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <div class="main-gallery">
+  <div class="gallery-cell">
+    <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/4.jpg">
+      <q class="testimonial-quote">“I am now able to take the stress off my shoulders of trying to call up certain paid services to tidy up my home and am able to socialize with my student helper everyday and get to know them better”</q>
+      <span class="testimonial-author">Stephanie</span>
+    </div>
+  </div>
+  <div class="gallery-cell">
+     <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/5.jpg">
+      <q class="testimonial-quote">We chose ShareCare because we wanted to help out the students in our community who needed the reduced housing costs and we thought - why not! The social company has really provided us a new perspective and the intergenerational living style makes us learn something new from the young everyday!”</q>
+      <span class="testimonial-author">Carol & Ralph</span>
+    </div>
+  </div>
+  <div class="gallery-cell">
+        <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/1.jpg">
+      <q class="testimonial-quote">“Being able to have a place to live for reduced rent really helped me graduate on time. Housing costs were exorbitant near my college campus and my financial aid would not let me allocate money towards finding a place to live. Knowing about ShareCare changed my college experience”</q>
+      <span class="testimonial-author">Conrad</span>
+    </div>
+  </div>
+  <div class="gallery-cell">
+        <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/6.jpg">
+      <q class="testimonial-quote">“My daughter found ShareCare as her and the rest of my children live abroad. Living alone has been particularly cumbersome, especially with hauling groceries to and fro from my car. My student helper has been such a helpful individual and I am happy to help in return by offering up a room that’s been empty for a while in my home”</q>
+      <span class="testimonial-author">Lisa</span>
+    </div>
+  </div>
+  <div class="gallery-cell">
+        <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/2.jpg">
+      <q class="testimonial-quote">“Searching for housing is a really daunting task. ShareCare was a lifesaver. My campus does not offer 4 year guaranteed housing and luckily I had a lot of potential matches with older adults who needed help around the house! Coming home to a welcoming and communal environment everyday has really made the everyday enjoyable”</q>
+      <span class="testimonial-author">Sylvia</span>
+    </div>
+  </div>
+  <div class="gallery-cell">
+        <div class="testimonial">
+        <img class="testimonial-avatar" src="img/testi/3.jpg">
+      <q class="testimonial-quote">“I am able to significantly reduce my housing cost with ShareCare. I’ve saved so much over the two years and it’s really helped out my family’s concerns over tuition and housing costs”</q>
+      <span class="testimonial-author">Alice</span>
+    </div>
+  </div>
+</div>
 
     <section id="about">
       <div class="container">
@@ -516,13 +530,13 @@
             <div class="login-options sso clearfix">
               <div class="login-option">
                 <a href="index.html" class="close-thik"></a>
-                <a href="https://auth.berkeley.edu/cas/login?service=https%3A%2F%2Fbcourses.berkeley.edu" class="login-block sso-student ">
+                <a href="login.html" class="login-block sso-student ">
                   STUDENT<br>
                   <small>
                   (Login with your UC Berkeley CalNet ID)</br>
                   </small>
                   </a>
-                  <a href="login.html" class="login-block sso-student ">
+                  <a href="login2.html" class="login-block sso-student ">
                   HOST
                   </a>
                   <a href="signup.html" class="login-block sso-student ">
@@ -548,14 +562,14 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js'></script>
-    
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/agency.min.js"></script>
     <script src="assets/plugins/moderniz.js"></script>
-    <script src="assets/js/testi.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js'></script>
+    <script  src="assets/js/testi.js"></script>
+
     <style>
       body {font-family: Arial, Helvetica, sans-serif;}
       input[type=text], input[type=password] {
